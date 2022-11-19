@@ -18,9 +18,9 @@ spec:
     spec:
       containers:
       - name: java-app
-        image: "srimanta104/my-app-1.0:latest"
+        image: "srimanta104/mvn-image:latest"
         ports:
-          - containerPort: 3000
+          - containerPort: 8080
 ---
 apiVersion: v1
 kind: Service
